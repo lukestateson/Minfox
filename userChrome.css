@@ -1,0 +1,29 @@
+#toolbar-menubar:not([autohide="true"]) + #TabsToolbar .tabbrowser-tab > .tab-stack > .tab-background, :root:not([tabsintitlebar]) .tab-background, :root[extradragspace] .tab-background {
+	border-top: 0 !important;
+}
+
+.tab-line {
+	height: 0 !important;
+}
+
+#identity-box {
+	padding-inline-start: 4px !important;
+	border-inline-end: 0px !important;
+	padding-inline-end: 4px !important;
+	margin-inline-end: 4px !important;
+}
+
+#identity-icon-labels, #tracking-protection-icon-box[active], #tracking-protection-icon-box[hasException], #identity-icon-label, #identity-icon-country-label, #identity-icon {
+	width: 0 !important;
+	opacity: 0 !important;
+	padding: 0 !important;
+	margin: 0 !important;
+}
+
+#page-action-buttons > *:not(#star-button-box) {
+	opacity: 0;
+}
+
+#urlbar:hover #page-action-buttons > * {
+	opacity: 1;
+}
