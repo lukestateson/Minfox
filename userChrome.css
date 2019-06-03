@@ -20,10 +20,10 @@
 	margin: 0 !important;
 }
 
-#page-action-buttons > *:not(#star-button-box) {
-	opacity: 0;
+#page-action-buttons > *:not(#star-button-box), .urlbar-history-dropmarker {
+	opacity: 0 !important;
 }
 
-#urlbar:hover #page-action-buttons > * {
-	opacity: 1;
+#urlbar:hover #page-action-buttons > *, #urlbar:hover .urlbar-history-dropmarker {
+	opacity: 1 !important;
 }
