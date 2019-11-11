@@ -6,6 +6,14 @@
 	height: 0 !important;
 }
 
+.tab-bottom-line {
+	height: 0 !important;
+}
+
+#star-button[starred] {
+	filter: grayscale(100%);
+}
+
 #identity-box {
 	padding-inline-start: 4px !important;
 	border-inline-end: 0px !important;
