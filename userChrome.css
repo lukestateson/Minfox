@@ -21,6 +21,8 @@
 	margin-inline-end: 4px !important;
 }
 
+/* Remove address bar bloat */
+
 #identity-icon-labels, #tracking-protection-icon-box[active], #tracking-protection-icon-box[hasException], #identity-icon-label, #identity-icon-country-label, #identity-icon {
 	width: 0 !important;
 	opacity: 0 !important;
@@ -28,10 +30,24 @@
 	margin: 0 !important;
 }
 
+/* Hide extra icons in address bar */
+
 #page-action-buttons > *:not(#star-button-box), .urlbar-history-dropmarker {
 	opacity: 0 !important;
 }
 
+/* Show extra icons on hover */
+
 #urlbar:hover #page-action-buttons > *, #urlbar:hover .urlbar-history-dropmarker {
 	opacity: 1 !important;
+}
+
+/* Hide notification about web page saved in library (after bookmared) */
+
+#confirmation-hint { display: none !important; }
+
+/* Hide new tab icon */
+
+.tabbrowser-tab[image="chrome://branding/content/icon32.png"] .tab-icon-image {
+	display: none !important;
 }
