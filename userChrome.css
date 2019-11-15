@@ -10,7 +10,16 @@
 	height: 0 !important;
 }
 
+/* Bookmarked icon grayscale */
+
 #star-button[starred] {
+	filter: grayscale(100%);
+	opacity: 0.5;
+}
+
+/* Identity box grayscale */
+
+#tracking-protection-icon-container, #identity-box {
 	filter: grayscale(100%);
 }
 
@@ -19,15 +28,6 @@
 	border-inline-end: 0px !important;
 	padding-inline-end: 4px !important;
 	margin-inline-end: 4px !important;
-}
-
-/* Remove address bar bloat */
-
-#identity-icon-labels, #tracking-protection-icon-box[active], #tracking-protection-icon-box[hasException], #identity-icon-label, #identity-icon-country-label, #identity-icon {
-	width: 0 !important;
-	opacity: 0 !important;
-	padding: 0 !important;
-	margin: 0 !important;
 }
 
 /* Hide extra icons in address bar */
