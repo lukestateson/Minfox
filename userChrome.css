@@ -76,6 +76,10 @@
 	animation: none !important;;
 }
 
-#urlbar[breakout][breakout-extend] > #urlbar-background {
+#urlbar-background {
 	box-shadow: none !important;
+}
+
+#urlbar-background {
+	border-color: #ddd !important;
 }
